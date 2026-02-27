@@ -1,5 +1,15 @@
-answer = input('Do you agree?: ').strip().lower()
-if answer == "yes" or answer == "y":
-    print("Agree")
-else:
-    print("Not agreed")
+def main():
+ x = int(input('Whst x?: '))
+ if is_even(x):
+  print('even')
+ else:
+  print('odd')
+
+def is_even(n):
+ if n % 2 == 0:
+  return True
+ else:
+  return False
+ 
+
+main()
