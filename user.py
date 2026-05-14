@@ -21,9 +21,7 @@ print(user.greet_user())
 user1 = User("Saba", "Vadachkoria", 23, "Tbilisi")
 print(user1.describe_user())
 print(user1.greet_user())
-user = User("Tedore", "Ghlonti", 43, "Ozurgeti")
-print(user.describe_user())
-print(user.greet_user())
+
 
         
         
